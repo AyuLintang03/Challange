@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<style>
+table .baris td{
+text-align: center;
+padding: 10px;
+}
+#angka1{
+  background-color: black;
+  color: white;
+}
+#baris2{
+  background-color: #0c970c;
+  color: white;
+}
+#baris2 #angka5{
+  text-align: center;
+  padding: 10px;
+}
+#baris2 #angka8{
+  text-align: center;
+  padding: 10px;
+}
+#angka16{
+  background-color: red;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<table border="1">
+  <tr class="baris">
+    <td id="angka1">Angka Ke-1</td>
+    <td>Angka Ke-2</td>
+    <td>Angka Ke-3</td>
+    <td>Angka Ke-4</td>
+  </tr>
+
+   <tr id="baris2">
+    <td id="angka5">Angka Ke-5</td>
+    <td colspan="2" rowspan="2" id="angka6">Angka Ke-6,7,10,11 </td>
+    <td id="angka8">Angka Ke-8</td>
+  </tr>
+<tr class="baris">
+    <td>Angka Ke-9</td>
+    <td>Angka Ke-12</td>
+  </tr>
+  
+   <tr class="baris">
+    <td>Angka Ke-13</td>
+    <td>Angka Ke-14</td>
+    <td>Angka Ke-15</td>
+    <td id="angka16">Angka Ke-16</td>
+  </tr>
+</table>
+</body>
+</html>
